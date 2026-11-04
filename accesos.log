@@ -1,0 +1,67 @@
+2026-11-04 07:58:11,175 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-11-04 07:58:11,177 INFO [33mPress CTRL+C to quit[0m
+2026-11-04 07:58:17,040 INFO 127.0.0.1 - - [04/Nov/2026 07:58:17] "GET / HTTP/1.1" 200 -
+2026-11-04 07:58:17,477 INFO 127.0.0.1 - - [04/Nov/2026 07:58:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-11-04 07:58:27,509 INFO 127.0.0.1 - - [04/Nov/2026 07:58:27] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-11-04 07:58:27,542 INFO 127.0.0.1 - - [04/Nov/2026 07:58:27] "GET /dashboard HTTP/1.1" 200 -
+2026-11-04 07:58:31,095 INFO 127.0.0.1 - - [04/Nov/2026 07:58:31] "GET /perfil HTTP/1.1" 200 -
+2026-11-04 07:58:32,614 INFO 127.0.0.1 - - [04/Nov/2026 07:58:32] "GET /dashboard HTTP/1.1" 200 -
+2026-11-04 08:59:59,379 INFO 127.0.0.1 - - [04/Nov/2026 08:59:59] "GET / HTTP/1.1" 200 -
+2026-11-04 09:00:33,994 INFO 127.0.0.1 - - [04/Nov/2026 09:00:33] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-11-04 09:00:34,010 INFO 127.0.0.1 - - [04/Nov/2026 09:00:34] "GET /dashboard HTTP/1.1" 200 -
+2026-11-04 09:00:37,492 INFO 127.0.0.1 - - [04/Nov/2026 09:00:37] "GET /perfil HTTP/1.1" 200 -
+2026-11-04 09:01:07,815 INFO 127.0.0.1 - - [04/Nov/2026 09:01:07] "GET /dashboard HTTP/1.1" 200 -
+2026-11-04 09:01:08,923 INFO 127.0.0.1 - - [04/Nov/2026 09:01:08] "GET /perfil HTTP/1.1" 200 -
+2026-11-04 09:09:06,286 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-11-04 09:09:06,286 INFO [33mPress CTRL+C to quit[0m
+2026-11-04 09:09:16,769 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-11-04 09:09:16,769 INFO [33mPress CTRL+C to quit[0m
+2026-11-04 09:09:22,283 WARNING ACCESO SIN SESION ip=127.0.0.1 ruta=/perfil
+2026-11-04 09:09:22,284 INFO 127.0.0.1 - - [04/Nov/2026 09:09:22] "[32mGET /perfil HTTP/1.1[0m" 302 -
+2026-11-04 09:09:22,299 INFO 127.0.0.1 - - [04/Nov/2026 09:09:22] "GET / HTTP/1.1" 200 -
+2026-11-04 09:09:29,584 INFO 127.0.0.1 - - [04/Nov/2026 09:09:29] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-11-04 09:09:29,602 INFO 127.0.0.1 - - [04/Nov/2026 09:09:29] "GET /dashboard HTTP/1.1" 200 -
+2026-11-04 09:09:29,647 INFO 127.0.0.1 - - [04/Nov/2026 09:09:29] "[33mGET /avatar HTTP/1.1[0m" 404 -
+2026-11-04 09:09:49,825 INFO 127.0.0.1 - - [04/Nov/2026 09:09:49] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-11-04 09:11:32,111 INFO 127.0.0.1 - - [04/Nov/2026 09:11:32] "GET /dashboard HTTP/1.1" 200 -
+2026-11-04 09:11:32,165 INFO 127.0.0.1 - - [04/Nov/2026 09:11:32] "[33mGET /avatar HTTP/1.1[0m" 404 -
+2026-11-04 09:11:32,194 INFO 127.0.0.1 - - [04/Nov/2026 09:11:32] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-11-04 09:11:33,026 INFO 127.0.0.1 - - [04/Nov/2026 09:11:33] "GET /dashboard HTTP/1.1" 200 -
+2026-11-04 09:11:33,076 INFO 127.0.0.1 - - [04/Nov/2026 09:11:33] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-11-04 09:11:33,085 INFO 127.0.0.1 - - [04/Nov/2026 09:11:33] "[33mGET /avatar HTTP/1.1[0m" 404 -
+2026-11-04 09:11:33,639 INFO 127.0.0.1 - - [04/Nov/2026 09:11:33] "GET /dashboard HTTP/1.1" 200 -
+2026-11-04 09:11:33,683 INFO 127.0.0.1 - - [04/Nov/2026 09:11:33] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-11-04 09:11:33,695 INFO 127.0.0.1 - - [04/Nov/2026 09:11:33] "[33mGET /avatar HTTP/1.1[0m" 404 -
+2026-11-04 09:11:36,656 INFO 127.0.0.1 - - [04/Nov/2026 09:11:36] "GET /dashboard HTTP/1.1" 200 -
+2026-11-04 09:11:36,699 INFO 127.0.0.1 - - [04/Nov/2026 09:11:36] "[33mGET /avatar HTTP/1.1[0m" 404 -
+2026-11-04 09:11:44,253 INFO 127.0.0.1 - - [04/Nov/2026 09:11:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-11-04 09:11:47,794 INFO 127.0.0.1 - - [04/Nov/2026 09:11:47] "GET /perfil HTTP/1.1" 200 -
+2026-11-04 09:11:47,836 INFO 127.0.0.1 - - [04/Nov/2026 09:11:47] "[33mGET /random HTTP/1.1[0m" 404 -
+2026-11-04 09:19:09,092 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-11-04 09:19:09,093 INFO [33mPress CTRL+C to quit[0m
+2026-11-04 09:19:12,789 WARNING ACCESO SIN SESION ip=127.0.0.1 ruta=/perfil
+2026-11-04 09:19:12,790 INFO 127.0.0.1 - - [04/Nov/2026 09:19:12] "[32mGET /perfil HTTP/1.1[0m" 302 -
+2026-11-04 09:19:12,804 INFO 127.0.0.1 - - [04/Nov/2026 09:19:12] "GET / HTTP/1.1" 200 -
+2026-11-04 09:19:20,645 INFO 127.0.0.1 - - [04/Nov/2026 09:19:20] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-11-04 09:19:26,891 INFO 127.0.0.1 - - [04/Nov/2026 09:19:26] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-11-04 09:19:26,912 INFO 127.0.0.1 - - [04/Nov/2026 09:19:26] "GET /dashboard HTTP/1.1" 200 -
+2026-11-04 09:19:27,099 INFO 127.0.0.1 - - [04/Nov/2026 09:19:27] "GET /random HTTP/1.1" 200 -
+2026-11-04 09:19:37,686 INFO 127.0.0.1 - - [04/Nov/2026 09:19:37] "GET /perfil HTTP/1.1" 200 -
+2026-11-04 09:19:37,735 INFO 127.0.0.1 - - [04/Nov/2026 09:19:37] "[36mGET /random HTTP/1.1[0m" 304 -
+2026-11-04 15:41:36,050 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-11-04 15:41:36,051 INFO [33mPress CTRL+C to quit[0m
+2026-11-04 15:41:43,392 INFO 127.0.0.1 - - [04/Nov/2026 15:41:43] "GET / HTTP/1.1" 200 -
+2026-11-04 15:41:51,435 INFO 127.0.0.1 - - [04/Nov/2026 15:41:51] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-11-04 15:41:51,482 INFO 127.0.0.1 - - [04/Nov/2026 15:41:51] "GET /dashboard HTTP/1.1" 200 -
+2026-11-04 15:41:51,625 INFO 127.0.0.1 - - [04/Nov/2026 15:41:51] "GET /random HTTP/1.1" 200 -
+2026-11-04 15:41:55,357 INFO 127.0.0.1 - - [04/Nov/2026 15:41:55] "GET /perfil HTTP/1.1" 200 -
+2026-11-04 15:41:55,390 INFO 127.0.0.1 - - [04/Nov/2026 15:41:55] "[36mGET /random HTTP/1.1[0m" 304 -
+2026-11-04 15:42:03,829 INFO 127.0.0.1 - - [04/Nov/2026 15:42:03] "GET /dashboard HTTP/1.1" 200 -
+2026-11-04 15:42:03,861 INFO 127.0.0.1 - - [04/Nov/2026 15:42:03] "[36mGET /random HTTP/1.1[0m" 304 -
+2026-11-04 15:42:04,977 INFO 127.0.0.1 - - [04/Nov/2026 15:42:04] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-11-04 15:42:04,988 INFO 127.0.0.1 - - [04/Nov/2026 15:42:04] "GET / HTTP/1.1" 200 -
