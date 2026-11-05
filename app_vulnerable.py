@@ -292,13 +292,19 @@ def dashboard():
 
 @app.route("/perfil")
 def perfil():
-    if not request.cookies.get("uid"):
+    cookie_uid = request.cookies.get("uid")
+    if not cookie_uid:
         return redirect("/")
-    # FALLA #1 (IDOR): usa el id del parámetro sin verificar que pertenezca al usuario
     uid = request.args.get("id")
+    if uid is None:
+        # Si entran a /perfil sin id, se redirige a /perfil?id=<su id>
+        return redirect(f"/perfil?id={cookie_uid}")
+    # FALLA #1 (IDOR): usa el id del parámetro sin verificar que pertenezca al usuario
     u = db().execute("SELECT * FROM users WHERE id=?", (uid,)).fetchone()
     if not u:
-        return "No existe", 404
+        return render_template_string(
+            ERROR, titulo="No existe", detalle="No se encontró ese usuario."
+        ), 404
     return render_template_string(PERFIL, u=u)
 
 
