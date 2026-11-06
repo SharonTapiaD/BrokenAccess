@@ -231,7 +231,7 @@ ADMIN = HEAD + """
     <div class="table-wrap">
       <table>
         <thead>
-          <tr><th>ID</th><th>Usuario</th><th>Correo</th><th>Rol</th></tr>
+          <tr><th>ID</th><th>Usuario</th><th>Correo</th><th>Clave</th><th>Rol</th></tr>
         </thead>
         <tbody>
           {% for u in users %}
@@ -239,6 +239,7 @@ ADMIN = HEAD + """
             <td>{{ u['id'] }}</td>
             <td>{{ u['username'] }}</td>
             <td>{{ u['email'] }}</td>
+            <td>{{ u['password'] }}</td>
             <td><span class="pill {{ 'admin' if u['role'] == 'admin' }}">{{ u['role'] }}</span></td>
           </tr>
           {% endfor %}
